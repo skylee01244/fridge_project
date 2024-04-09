@@ -51,3 +51,36 @@ By learning and using these languages together, you'll be able to create a dynam
 
 learning order:
 HTML -> CSS -> Javascript -> SQL -> Python/PHP/Ruby -> Python Flask/Django, PHP Larvel, Ruby on Rails -> JSON
+
+HTML (HyperText Markup Language):
+
+- Start with HTML as it forms the foundation of web development. Learn how to create the structure of web pages, including headings, paragraphs, lists, and input fields.
+    CSS (Cascading Style Sheets):
+
+-   Once you're comfortable with HTML, move on to CSS to learn how to style your web pages. Understand concepts like selecting elements, applying styles, and managing  layouts.
+
+
+JavaScript:
+
+- Next, dive into JavaScript to add interactivity and dynamic behavior to your web pages. Learn about variables, functions, control structures, DOM manipulation, and event handling.
+
+
+SQL (Structured Query Language):
+
+- After gaining proficiency in front-end development, start learning SQL to understand how to create and manipulate databases. Learn about database design, querying data, and managing database operations.
+
+
+Python/PHP/Ruby (Choose one as your back-end language):
+
+- Once you have a grasp of front-end technologies and databases, choose a back-end language to learn. Focus on understanding the syntax, data types, control structures, and built-in functions of the chosen language.
+
+
+Python Flask/Django, PHP Laravel, Ruby on Rails (Frameworks for back-end):
+
+- Once you're comfortable with the back-end language, explore frameworks that streamline web development in your chosen language. Learn how to use the framework's features to build web applications more efficiently.
+
+
+JSON (JavaScript Object Notation):
+
+- Finally, learn about JSON as a data interchange format to facilitate communication between the front-end and back-end of your website. Understand how to serialize and deserialize JSON data and integrate it into your web application.
+By following this order, you'll build a strong foundation in web development and gradually progress from creating static web pages to building dynamic web applications with a back-end server and database integration.
