@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fridge</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src='./index.js'></script>        <!-- Defer: This attribute makes sure that all the scripts are downloaded but it will not be executed until the DOM is ready. -->
 </head>
 <body>
     <h1>Hello</h1>
     <p>This is the changed document</p>
     <p>This is a test to see if macbook changes are applied</p>
+    <p>console print</p>
+    <div class="container">     
+        <form id="form" action="/">
+            <h1>Registeration</h1>
+            <div class="input-control">     <!--Use to stype the form-->
+                <label for="username">Username</label>         
+                <input type="username" name="username" type="text">         <!--id="username" is used to grab input using js-->
+                <div class="error"></div>                                   <!--TO show error messages-->
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="username" type="text">
+            </div>
+            <div class="input-control">
+                <label for="passowrd">Password</label>
+                <input id="password" name="passowrd" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="passowrd">Password again</label>
+                <input id="password2" name="passowrd2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
 </body>
 </html>
